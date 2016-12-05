@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : March 04, 2015, 03:01:42 PM
+    Author     : Redoy
+*/
+
+
+/*================================  Photos  ================================*/
+
+/*================================  Left Category  ================================*/
+.video_ul,.category_ul{
+    list-style-type:none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.video_ul{
+    line-height: 28px;
+    font-size: 13px;
+}
+.category_ul{
+    line-height: 22px;
+    font-size: 10px;
+}
+.video_ul a,.category_ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.video_ul a li:hover,.category_ul a li:hover{
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #888888!important;
+    color: white!important;
+    padding-left: 4px;
+    font-weight: bold;
+}
+.video_ul a li:hover{
+    border-radius: 3px;
+}
+/*================================  create album modal  ================================*/
+#album_box {
+    display: inline-block;
+    margin-right: 6px;
+    height: 30px;
+    width: 30px;
+}
+
+.modal_background_color{
+    opacity: .9;
+    font-weight: bold;
+    background-color: #000;
+}
+
+/*================================  photo gallery  ================================*/
+.border_style{
+/*border: 1px solid #703684;*/
+/*width: 100%;*/
+
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+@media screen and (min-width: 1200px) {
+   
+}
+
+
+.tp-leftarrow{	
+    cursor:pointer; 
+    position:relative;	
+    background:url(../images/large_left.png) no-repeat top left;	
+    width:40px;	
+    height:40px;   
+    top: 250px;
+    left: 40%;
+}
+
+.tp-rightarrow{	
+    cursor:pointer; 
+    position:relative;	
+    background:url(../images/large_right.png) no-repeat top left;	
+    width:40px;	
+    height:40px;   
+    top: 250px;
+    right: 40%;
+}
+.carousel-control.left,.carousel-control.right {
+    background-image: none;
+}
+.pagelet_mg_custom {
+    margin: 0px!important;
+}
+
+.pagelet_divider{
+    border-bottom: 1px solid lightgray;
+}
+
+.gallery_ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+.gallery_ul a{
+    font-size: 12px;
+}
+
+.gallery_ul a li:hover{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #1509EF;
+    font-size: 12px;
+}
+
+
+
+/*--------------------------------Practice---------------------------------*/
+

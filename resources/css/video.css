@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 23, 2015, 1:06:42 PM
+    Author     : Redoy
+*/
+
+
+/*================================  videos  ================================*/
+
+
+
+/*================================  pagelets  ================================*/
+
+.pagelet_divider{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+.user_comment{
+    padding: 5px 0px 5px 0px; 
+}
+
+/*================================  Search video icon ================================*/
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+    height: 20px;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 6px;
+}
+
+/*================================  Left Menu  ================================*/
+.video_ul,.category_ul{
+    list-style-type:none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.video_ul{
+    line-height: 28px;
+    font-size: 13px;
+}
+.category_ul{
+    line-height: 22px;
+    font-size: 10px;
+}
+.video_ul a,.category_ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.video_ul a li:hover,.category_ul a li:hover{
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #888888!important;
+    color: white!important;
+    padding-left: 4px;
+    font-weight: bold;
+}
+.video_ul a li:hover{
+    border-radius: 3px;
+}
+
+
+/*================================  Iframe  ================================*/
+.borber_box_full,.borber_box_others{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+    border-radius: 5px;
+}
+.borber_box_full{
+    border-top: 1px solid lightgray;
+}
+.text_center{
+    text-align: center;
+}
+.details:hover{
+    color: #703684;
+    cursor: pointer;
+}
+
+
+/*================================  Middle column section  ================================*/
+.category_divider{
+    border-bottom: 1px solid lightgray;
+}
+
+
+/*================================  Member video templete ================================*/
+
+
+.container_background{
+    background-color: #E9EAED;
+}
+.ticker_friends_wrapper{
+    position: fixed; 
+    height: 300px;
+    z-index: 1001;
+}
+
+/*================================  Member video right section ================================*/
+.ul_background_color{
+    opacity: .6;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 2px 0;
+}
